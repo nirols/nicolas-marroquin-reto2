@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url(/Bancoop/img/Captura.JPG);
+    background-repeat: no-repeat;
+    height: 21.9rem;
+
+    border-radius: 2rem 2rem 0 0;
+}
+
+menu {
+    background-color: rgb(255, 180, 6);
+    padding: 1rem;
+    border-radius: 0 0 2rem 2rem;
+}
+
+menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+menu ul li {
+
+    border-right: 2px solid white;
+    padding: 0 7rem 0 6rem;
+    list-style: none;
+}
+
+#dif li {
+    border: none;
+}
+
+menu a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+main {
+    display: flex;
+}
+
+#cuenta {
+    text-align: center;
+    background-color: rgb(174, 174, 174);
+    width: 22rem;
+    height: 17rem;
+    margin: 1rem 1rem 1rem 0;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.form {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 12rem;
+}
+
+#button {
+    margin-top: 1rem;
+    width: 6rem;
+    background-color: rgb(255, 180, 6);
+    border-radius: 0.2rem;
+}
+
+#cuenta h2 {
+    border-radius: 1rem 1rem 0 0;
+    color: white;
+    background-color: rgb(56, 53, 53);
+    padding: 0.8rem;
+}
+
+#tran {
+    text-align: center;
+    width: 22rem;
+    background-color: rgb(56, 53, 53);
+    margin-bottom: 1rem;
+    height: 19rem;
+}
+
+#tran ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tran li {
+    list-style: none;
+    font-size: x-large;
+    border-bottom: 1px solid rgb(112, 98, 98);
+    width: 15rem;
+    padding: 0.3rem 0;
+}
+
+#tran a {
+    color: rgb(183, 171, 171);
+    text-decoration: none;
+}
+
+#tran h2 {
+    padding: 0.3rem;
+    background-color: rgb(48, 43, 43);
+    color: rgb(255, 180, 6);
+}
+
+#tran .ex {
+    border: none;
+}
+#arriba{
+    display: flex;
+}
+#art1 {
+    margin: 1rem 0 1rem 0;
+    border-radius: 2rem 0 0 0;
+    background-color: rgb(213, 219, 219);
+    height: 18rem;
+    width: 34rem;
+    text-align: center;
+}
+#art2 {
+    margin: 1rem 0 1rem 1rem;
+    border-radius: 0 2rem 0 0;
+    background-color: rgb(213, 219, 219);
+    width: 34rem;
+    text-align: center;
+}
+#abajo{display: flex;}
+#art3 {
+    margin: 0 0 1rem 0 ;
+    border-radius: 0 0 0 2rem ;
+    height: 18rem;
+    background-color: rgb(213, 219, 219);
+    width: 34rem;
+    text-align: center;
+}
+#art4 {
+    margin: 0 0 1rem 1rem ;
+    border-radius:0 0 2rem 0 ;
+    background-color: rgb(213, 219, 219);
+    width: 34rem;
+    text-align: center;
+}
+#art1 h3{
+    color: white;
+    border-radius: 1rem 0 0 0;
+    padding: 1rem;
+    background-color: rgb(48, 43, 43);
+}
+
+#art2 h3{
+    color: white;
+    border-radius: 0 1rem 0 0;
+    padding: 1rem;
+    background-color: rgb(48, 43, 43);
+}
+#art3 h3{
+    color: white;
+    padding: 1rem;
+    background-color: rgb(48, 43, 43);
+}
+#art4 h3{
+    color: white;
+    padding: 1rem;
+    background-color: rgb(48, 43, 43);
+}
+
+img {
+    width: 15rem;
+    height: 10rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+    border-radius: 0 0 2rem 2rem;
+    background-color: rgb(56, 53, 53);
+    color: rgb(166, 154, 154);
+}
